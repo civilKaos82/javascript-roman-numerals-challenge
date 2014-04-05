@@ -1,11 +1,13 @@
 
-// We did some stuff for you! Don't worry too much about it.
+// We did some stuff for you! This is basic logic for affecting the DOM.
+// It short circuits the page's HTML form and fires off a handbuilt JS function.
 document.onreadystatechange = function() {
   var form = document.querySelector('.input-form')
   form.addEventListener('submit',printConvertedValue,false)
 }
 
-// play in the console
+// This is the function that actually adds the output to the DOM. Don't change
+// this!
 var printConvertedValue = function(event) {
   event.preventDefault()
   var number = this.number.value
@@ -14,10 +16,10 @@ var printConvertedValue = function(event) {
 }
 
 
-
-
 // numeralConverter takes a string that looks like a number as an input, e.g. '111'.
 // numeralConverter should output a string of characters corresponds to a Roman Numeral, e.g. 'XXVI'
 var numeralConverter = function(numString) {
   // your code goes here!
 }
+
+// your helper functions go here!
