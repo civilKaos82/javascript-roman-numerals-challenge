@@ -1,7 +1,7 @@
 
 // We did some stuff for you! This is basic logic for affecting the DOM.
 // It short circuits the page's HTML form and fires off a handbuilt JS function.
-document.onreadystatechange = function() {
+window.onload = function() {
   var form = document.querySelector('.input-form')
   form.addEventListener('submit',printConvertedValue,false)
 }
