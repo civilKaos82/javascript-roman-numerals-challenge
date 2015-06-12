@@ -5,11 +5,10 @@
 * Getting familiar with programmatic JavaScript
 * Getting familiar with a barebones implementation of client-side JavaScript
 
-
 ## Summary
 
 We're going to solve the roman numerals problem in JavaScript!
-[You know how this works.](https://github.com/fiery-skippers-2014/roman-numerals-challenge)
+[You know how this works.](../../../roman-numerals-challenge)
 
 ## Releases
 
@@ -30,6 +29,3 @@ We've already set up the basic DOM manipulation structure, all you need to do
 is write the logic for converting input in romans.js. You need to make the
 .numeralConverter() function operational! Feel free to use helper functions,
 which you can define inside romans.js.
-
-
-
